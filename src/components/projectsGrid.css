@@ -1,0 +1,27 @@
+.projectsGrid {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-column-gap: 25px;
+	grid-row-gap: 30px;
+}
+
+.projectsGrid-single {
+	cursor: pointer;
+}
+.projectsGrid-single img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+@media screen and (max-width: 880px) {
+	.projectsGrid {
+		width: 100%;
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(1, 1fr);
+		grid-row-gap: 20px;
+	}
+}

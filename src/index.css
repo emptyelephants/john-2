@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;600;700&display=swap');
+
+body {
+	margin: 0;
+	background: #37393a;
+	font-family: 'Montserrat', sans-serif;
+}
+
+strong {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
+* {
+	box-sizing: border-box;
+}
+
+img {
+	height: auto !important;
+	object-fit: cover;
+}
+
+/* src/App.css or your component's CSS file */
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: 'Schibsted Grotesk', sans-serif;
+	font-weight: 700;
+}
+
+p {
+	font-family: 'Schibsted Grotesk', sans-serif;
+	font-weight: 400;
+}

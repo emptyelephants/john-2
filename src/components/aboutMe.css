@@ -1,0 +1,50 @@
+.aboutMe {
+	margin-bottom: 40px;
+	min-height: 900px;
+	color: #fff;
+}
+.bioHero {
+	height: 500px;
+	overflow: hidden;
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.bioLeft,
+.bioRight {
+	width: 50%;
+	float: left;
+}
+
+.bioRight {
+	height: 400px;
+	/* width: 400px; */
+}
+
+.bioLeft {
+	padding: 0px 40px 0px 10px;
+}
+
+@media screen and (max-width: 880px) {
+	.aboutMe {
+		min-height: 600px;
+	}
+	.bioHero {
+		margin-bottom: 10px;
+	}
+	.bioLeft,
+	.bioRight {
+		width: 100%;
+		float: none;
+	}
+	.bioLeft {
+		padding: 8px 0px 10px;
+	}
+	.aboutMe .container {
+		max-width: 95%;
+	}
+}
+
+.bio_bullets {
+	display: flex;
+}

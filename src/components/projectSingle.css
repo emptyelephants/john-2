@@ -1,0 +1,29 @@
+.projectDetails {
+	margin: 25px 0 30px;
+	color: #fff;
+}
+.projectDetails h2 {
+	font-size: 21px;
+}
+.projectDetails p {
+	font-size: 14px;
+}
+.projectGrid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	padding-bottom: 80px;
+}
+.projectGrid-image {
+	cursor: pointer;
+}
+
+.projectGrid img {
+	width: 100%;
+}
+
+.hideOnTransition {
+	opacity: 1;
+}
